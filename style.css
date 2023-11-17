@@ -1,0 +1,32 @@
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    float: left;
+}
+.block1{
+    width: 100px;
+    height: 100px;
+    background-color: #00ff00;
+    float: left;
+    transition: background-color 1s ease;
+    transition: height 1s ease;
+    transition: width 1s ease;
+}
+.block1:hover{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+.block2{
+    width: 500px;
+    height: 500px;
+    float: left;
+    background-image: url(https://thebiggestlollieshopintheworld.com.au/cdn/shop/products/sourworms_2000x.jpg?v=1642659646);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 70px;
+    color: #770077;
+}
